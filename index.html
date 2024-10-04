@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPro Creations - Design Agency</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="title" content="WebPro Creations - Design Agency">
+    <meta name="description" content="We turn your ideas into stunning, user-friendly websites that don't just look good but also work perfectly for your business needs.">
+    <meta name="keywords" content="ui ux design, web design, shopify development, custom web design, ecommerce solutions">
+    <meta name="author" content="Zaid Hussain Shaikh">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+
+</head>
+
+
+<body class="px-[120px]">
+    <!-- Header Section -->
+    <header class="py-[60px]">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo Section -->
+            <div class="flex items-center">
+                <img src="./Images/Logo.svg" alt="Logo" class="max-h-[60px]">
+                </div>
+
+            <!-- Navigation Section -->
+            <nav class="flex space-x-8 text-gray-600 text-[20px]">
+                <a href="#" class="text-purple-500 hover:text-purple-700">About Us</a>
+                <a href="#" class="hover:text-gray-800">Our Services</a>
+                <a href="#" class="hover:text-gray-800">Our Team</a>
+                <a href="#" class="hover:text-gray-800">Testimonials</a>
+                <a href="#" class="hover:text-gray-800">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <div class="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
+        <form>
+            <div class="grid grid-cols-2 gap-4">
+                <input type="text" placeholder="Your Name" class="col-span-1 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                <input type="email" placeholder="Email Address" class="col-span-1 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+            
+                <div class="mt-4 flex items-center space-x-2 border border-gray-300 p-3 rounded-lg w-full">
+                    <input type="phone" placeholder="Phone Number" class="w-full focus:outline-none">
+                </div>
+            
+            <div class="mt-4">
+                <input type="url" placeholder="Your Website Link (Optional)" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+    
+                <!-- Submit Button -->
+                <div class="mt-4 flex flex-col justify-center items-end gap-2 self-stretch">
+                    <button class="bg-gradient-to-r from-purple-500 to-purple-700 text-white font-semibold py-3 px-6 rounded-lg hover:from-purple-700 hover:to-purple-900 focus:outline-none focus:ring-4 focus:ring-purple-400">
+                        Submit Now
+                    </button>
+              
+
+        </form>
+  
+
+
+    <script src="script.js"></script>
+</body>
+</html>
