@@ -7,6 +7,17 @@
 body {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
-    background-color: #6237F0;
-    
+    background-color: #FFFFFF;
+}
+
+.Span{
+    background: var(--A, linear-gradient(180deg, #BF73F2 0%, #6237F0 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Urbanist;
+font-size: 44px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
 }
